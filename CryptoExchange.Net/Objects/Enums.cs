@@ -45,6 +45,14 @@
         Json
     }
 
+    public enum SyncStatus
+    {
+        Disconnected,
+        Syncing,
+        Synced,
+        Diposed
+    }
+
     /// <summary>
     /// Status of the order book
     /// </summary>
